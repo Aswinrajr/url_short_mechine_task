@@ -12,7 +12,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-    origin: "https://url-short-mechine-task.onrender.com",
+    origin: "https://url-short-mechine-task.vercel.app",
     credentials: true
 }));
 app.use(express.json());
